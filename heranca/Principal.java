@@ -11,6 +11,7 @@ public class Principal {
 
     Veiculo carro = new Carro(2, false, "Fiat");
     carro.ligar();
+    carro.mostrarDetalhes();
   }
 
 }

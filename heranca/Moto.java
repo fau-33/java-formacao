@@ -11,7 +11,7 @@ public class Moto extends Veiculo {
 
   @Override
   public void ligar() {
-    super.ligar();
+    
     System.out.println("A moto esta ligando");
     System.out.println("A cilindrada da moto é: " + this.cilindrada);
   }
