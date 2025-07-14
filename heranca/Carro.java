@@ -16,7 +16,7 @@ public class Carro extends Veiculo {
   @Override
   public void ligar() {
     super.ligar();
-    System.out.println("O carro esta ligado");
+    System.out.println("O carro esta ligando");
     
   }
 }

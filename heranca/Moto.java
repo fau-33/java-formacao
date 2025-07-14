@@ -1,13 +1,18 @@
 package heranca;
 
 public class Moto extends Veiculo {
-  int cilindradas;
-  boolean temPartidaEletrica;
 
-  public Moto(int cilindradas, boolean temPartidaEletrica, String marca) {
+  String cilindrada;
+  
+  public Moto(String marca, String cilindrada) {
     super(marca);
-    this.cilindradas = cilindradas;
-    this.temPartidaEletrica = temPartidaEletrica;
+    this.cilindrada = cilindrada;
   }
 
+  @Override
+  public void ligar() {
+    super.ligar();
+    System.out.println("A moto esta ligando");
+    System.out.println("A cilindrada da moto é: " + this.cilindrada);
+  }
 }
