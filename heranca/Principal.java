@@ -9,9 +9,15 @@ public class Principal {
     // Moto moto = new Moto("Honda", "350cc");
     // moto.ligar();
 
-    Veiculo carro = new Carro(2, false, "Fiat");
-    carro.ligar();
-    carro.mostrarDetalhes();
+    // Veiculo carro = new Carro(2, false, "Fiat");
+    // carro.ligar();
+    // carro.mostrarDetalhes();
+
+    Aviao aviao = new Aviao();
+    aviao.desligar();
+    aviao.documentacao();
+    aviao.combustivel();
+
   }
 
 }
